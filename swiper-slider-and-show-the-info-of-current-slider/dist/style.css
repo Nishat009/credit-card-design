@@ -1,0 +1,101 @@
+.slider-component {
+            margin-block: 1rem;
+        }
+
+
+        .swiper {
+            margin-block: 1rem;
+        }
+
+        .swiper-slide {
+            /* aspect-ratio: 16/9; */
+            border-radius: 0.5em;
+            overflow: hidden;
+        }
+
+        .h-64 {
+            height: 256px
+        }
+
+        .rounded-xl {
+            border-radius: .75rem;
+        }
+
+        .p-6 {
+            padding: 24px
+        }
+
+        .text-4xl {
+            font-size: 2.25rem
+                /* 36px */
+            ;
+            line-height: 2.5rem
+                /* 40px */
+            ;
+        }
+
+        .text-2xl {
+            font-size: 1.5rem
+                /* 24px */
+            ;
+            line-height: 2rem
+                /* 32px */
+            ;
+        }
+
+        .font-semibold {
+            font-weight: 600;
+        }
+
+        .grid {
+            display: grid;
+        }
+
+        .grid-cols-5 {
+            grid-template-columns: repeat(5, minmax(0, 1fr));
+        }
+
+        .gap-2 {
+            gap: 0.5rem
+                /* 8px */
+            ;
+        }
+
+        .col-span-2 {
+            grid-column: span 2 / span 2;
+        }
+
+        .text-sm {
+            font-size: 0.875rem
+                /* 14px */
+            ;
+            line-height: 1.25rem
+                /* 20px */
+            ;
+        }
+
+        #slide-info {
+            margin-top: 16px;
+        }
+
+        .whitespace-nowrap {
+            white-space: nowrap;
+        }
+
+        .text-7xl {
+            font-size: 4.5rem;
+            line-height: 1;
+        }
+
+        /* .ml-24p{
+            margin-left: 1.5rem;
+
+        } */
+        .bg-gradient-1 {
+            background: linear-gradient(90deg, #1b263d 20%, #a3a2a2a6 100%);
+        }
+
+        .bg-gradient-2 {
+            background: linear-gradient(90deg, #670580 20%, #c892d6a6 100%);
+
+        }
